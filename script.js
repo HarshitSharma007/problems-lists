@@ -89,7 +89,7 @@ if(todos){
         addtodo(todo)
     })
 }
-if(todos.length==0) {
+if(todos.length<arr.length) {
     arr.forEach((a)=>{
         
      addtodo({
